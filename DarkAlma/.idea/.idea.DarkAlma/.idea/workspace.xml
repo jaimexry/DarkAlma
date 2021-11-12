@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a47c7ff8-19cb-42a6-9198-7b77fff42259" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/_Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Camera/CameraFollow.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Items/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Weapons/WeaponHolderSlot.cs" />
+      <option value="$PROJECT_DIR$/Assets/ResetIsInteracting.cs" />
+      <option value="$PROJECT_DIR$/Assets/ResetAnimatorBool.cs" />
+      <option value="$PROJECT_DIR$/Assets/DamagePlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/HealthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlayerStats.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Camera/CameraHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Enemies/EnemyStats.cs" />
+      <option value="$PROJECT_DIR$/Assets/DamageCollider.cs" />
+      <option value="$PROJECT_DIR$/Assets/PlayerAttacker.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Player/AnimatorHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Items/WeaponItem.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Weapons/WeaponSlotManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerLocomotion.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Player/InputHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Player/PlayerManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/_Scripts/Items/PlayerInventory.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="20goxSb81udI9qhy6C2F107khRn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a47c7ff8-19cb-42a6-9198-7b77fff42259" name="Default Changelist" comment="" />
+      <created>1636475861930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636475861930</updated>
+      <workItem from="1636475880883" duration="5505000" />
+      <workItem from="1636485231439" duration="8368000" />
+      <workItem from="1636557585679" duration="10337000" />
+      <workItem from="1636629079809" duration="13602000" />
+      <workItem from="1636722800923" duration="3252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
