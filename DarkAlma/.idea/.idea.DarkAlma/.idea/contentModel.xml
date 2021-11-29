@@ -8,36 +8,79 @@
       <e p="Assembly-CSharp.Player.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_Scripts" t="Include">
+          <e p="AI" t="Include">
+            <e p="AmbushState.cs" t="Include" />
+            <e p="AttackState.cs" t="Include" />
+            <e p="CombatStanceState.cs" t="Include" />
+            <e p="IdleState.cs" t="Include" />
+            <e p="PursueTargetState.cs" t="Include" />
+            <e p="State.cs" t="Include" />
+          </e>
           <e p="Animations" t="Include">
+            <e p="AnimatorManager.cs" t="Include" />
+            <e p="PlayerAnimatorManager.cs" t="Include" />
             <e p="ResetAnimatorBool.cs" t="Include" />
           </e>
           <e p="Camera" t="Include">
             <e p="CameraHandler.cs" t="Include" />
           </e>
           <e p="Enemies" t="Include">
-            <e p="EnemyStats.cs" t="Include" />
+            <e p="EnemyActions.cs" t="Include" />
+            <e p="EnemyAttackAction.cs" t="Include" />
+            <e p="EnemyLocomotionManager.cs" t="Include" />
           </e>
           <e p="Items" t="Include">
+            <e p="HealingSpell.cs" t="Include" />
+            <e p="Interactable.cs" t="Include" />
             <e p="Item.cs" t="Include" />
-            <e p="PlayerInventory.cs" t="Include" />
+            <e p="OpenChest.cs" t="Include" />
+            <e p="SpellItem.cs" t="Include" />
             <e p="WeaponItem.cs" t="Include" />
+            <e p="WeaponPickUp.cs" t="Include" />
+          </e>
+          <e p="Managers" t="Include">
+            <e p="CharacterManager.cs" t="Include" />
+            <e p="EnemyAnimatorManager.cs" t="Include" />
+            <e p="EnemyManager.cs" t="Include" />
+            <e p="EnemyWeaponSlotManager.cs" t="Include" />
+            <e p="PlayerEquipmentManager.cs" t="Include" />
+            <e p="PlayerManager.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
-            <e p="AnimatorHandler.cs" t="Include" />
             <e p="InputHandler.cs" t="Include" />
             <e p="PlayerAttacker.cs" t="Include" />
+            <e p="PlayerInventory.cs" t="Include" />
             <e p="PlayerLocomotion.cs" t="Include" />
-            <e p="PlayerManager.cs" t="Include" />
-            <e p="PlayerStats.cs" t="Include" />
           </e>
           <e p="Stats" t="Include">
+            <e p="CharacterStats.cs" t="Include" />
+            <e p="EnemyStats.cs" t="Include" />
             <e p="HealthBar.cs" t="Include" />
+            <e p="PlayerStats.cs" t="Include" />
+            <e p="StaminaBar.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="EquipmentWindowUI.cs" t="Include" />
+            <e p="FocusPointBar.cs" t="Include" />
+            <e p="HandEquipmentSlotUI.cs" t="Include" />
+            <e p="InteractableUI.cs" t="Include" />
+            <e p="QuickSlotsUI.cs" t="Include" />
+            <e p="SoulCountBar.cs" t="Include" />
+            <e p="WeaponInventorySlot.cs" t="Include" />
           </e>
           <e p="Weapons" t="Include">
+            <e p="BlockingCollider.cs" t="Include" />
+            <e p="CriticalDamageCollider.cs" t="Include" />
             <e p="DamageCollider.cs" t="Include" />
             <e p="DamagePlayer.cs" t="Include" />
             <e p="WeaponHolderSlot.cs" t="Include" />
             <e p="WeaponSlotManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Animations" t="Include">
+          <e p="Souls-like Essentials" t="Include">
+            <e p="Read Me.txt" t="Include" />
           </e>
         </e>
         <e p="Art" t="Include">
@@ -50,6 +93,7 @@
           </e>
         </e>
         <e p="PlayerControls.cs" t="Include" />
+        <e p="UIEnemyHealthBar.cs" t="Include" />
       </e>
       <e p="DarkAlma.sln" t="IncludeFlat" />
       <e p="DocCodeExamples.csproj" t="IncludeRecursive" />

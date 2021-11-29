@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 736b4e293368169499164652d1264ab2, type: 3}
+  m_Name: Talisman
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 0}
+  itemName: Talisman
+  modelPrefab: {fileID: 3469372995810656264, guid: 15027836e5e7fd040b62e92ac95aaee2, type: 3}
+  isUnarmed: 0
+  right_hand_idle: Right_Arm_Idle_01
+  left_hand_idle: Left_Arm_Idle_01
+  th_idle: TH_Idle_01
+  OH_Light_Attack_1: OH_Light_Attack_01
+  OH_Light_Attack_2: OH_Light_Attack_02
+  OH_Heavy_Attack_1: OH_Heavy_Attack_01
+  TH_Attack_01: TH_Attack_01
+  TH_Attack_02: TH_Attack_02
+  baseStamina: 0
+  lightAttackMultiplier: 0
+  heavyAttackMultiplier: 0
+  isSpellCaster: 0
+  isFaithCaster: 1
+  isPyroCaster: 0
+  isMeleeWeapon: 0

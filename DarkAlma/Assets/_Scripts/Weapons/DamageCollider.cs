@@ -7,6 +7,7 @@ namespace JB
 {
     public class DamageCollider : MonoBehaviour
     {
+        public CharacterManager characterManager;
         private Collider damageCollider;
         public int currentWeaponDamage = 25;
 
@@ -33,6 +34,27 @@ namespace JB
             if (collision.CompareTag("Player"))
             {
                 PlayerStats playerStats = collision.GetComponent<PlayerStats>();
+                CharacterManager enemyCharacterManager = collision.GetComponent<CharacterManager>();
+                BlockingCollider shield = collision.transform.GetComponentInChildren<BlockingCollider>();
+
+                if (enemyCharacterManager != null)
+                {
+                    if (enemyCharacterManager.isParrying)
+                    {
+                        characterManager.GetComponentInChildren<AnimatorManager>().PlayTargetAnimation("Parried", true);
+                        return;
+                    }else if (shield != null && enemyCharacterManager.isBlocking)
+                    {
+                        float physicalDamageAfterBlock = currentWeaponDamage -
+                                                         (currentWeaponDamage * shield.blockingPhysicalDamageAbsorption) / 100;
+                        if (playerStats != null)
+                        {
+                            playerStats.TakeDamage(Mathf.RoundToInt(physicalDamageAfterBlock), "Block Guard");
+                            return;
+                        }
+                    }
+                }
+
                 if (playerStats != null)
                 {
                     playerStats.TakeDamage(currentWeaponDamage);
@@ -42,6 +64,26 @@ namespace JB
             if (collision.CompareTag("Enemy"))
             {
                 EnemyStats enemyStats = collision.GetComponent<EnemyStats>();
+                CharacterManager enemyCharacterManager = collision.GetComponent<CharacterManager>();
+                BlockingCollider shield = collision.transform.GetComponentInChildren<BlockingCollider>();
+
+                if (enemyCharacterManager != null)
+                {
+                    if (enemyCharacterManager.isParrying)
+                    {
+                        characterManager.GetComponentInChildren<AnimatorManager>().PlayTargetAnimation("Parried", true);
+                        return;
+                    }else if (shield != null && enemyCharacterManager.isBlocking)
+                    {
+                        float physicalDamageAfterBlock = currentWeaponDamage -
+                                                         (currentWeaponDamage * shield.blockingPhysicalDamageAbsorption) / 100;
+                        if (enemyStats != null)
+                        {
+                            enemyStats.TakeDamage(Mathf.RoundToInt(physicalDamageAfterBlock), "Block Guard");
+                            return;
+                        }
+                    }
+                }
 
                 if (enemyStats != null)
                 {
