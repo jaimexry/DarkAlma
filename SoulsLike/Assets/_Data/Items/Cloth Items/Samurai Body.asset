@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d84f7cfd37234429a156253a4450fd, type: 3}
+  m_Name: Samurai Body
+  m_EditorClassIdentifier: 
+  clothType: {fileID: 11400000, guid: 6aad8c81a5cab8b48a13d33e3fffb94b, type: 2}
+  mesh: {fileID: 4501868355887322687, guid: 2e5a7f9f97f973b4f873c0d27cc4c049, type: 3}
+  clothMaterial: {fileID: 2100000, guid: e9b48528c48d72944812438f6a9c71d0, type: 2}

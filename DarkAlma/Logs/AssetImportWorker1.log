@@ -3270,3 +3270,4 @@ Received Import Request.
   path: Assets/animations/Souls-like Essentials/Read Me.txt
   artifactKey: Guid(3de53ca34fbb2bd4081250717ae49ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/animations/Souls-like Essentials/Read Me.txt using Guid(3de53ca34fbb2bd4081250717ae49ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e62d115d09dc52ad1d892a337af282') in 0.140429 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
